@@ -9,7 +9,7 @@ function Navbar() {
                 <div className="nav-container">
                     <ul className='item-container'>
                         <li className='nav-item'>
-                            <Link>
+                            <Link to='/'>
                                 About Me
                             </Link>
                         </li>

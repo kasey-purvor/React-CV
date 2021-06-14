@@ -15,21 +15,27 @@ class ProfilePage extends React.Component {
                     Kasey Purvor
                 </h1>
                 <h2 className='profile-role'>
-                    Software Developer
+                    Software Developer 
                 </h2>
                 <ul className='profile-details'>
+                    <span className='title'> About Me</span>
                     <li className='detail-item'>
-                        Name: Kasey Purvor
+                         Name: Kasey Purvor    |    
                     </li>
                     <li className='detail-item'>
-                        Age: 26
+                        Age: 26    |    
                     </li>
                     <li className='detail-item'>
                         Location: London
                     </li>
                 </ul>
                 <p className='bio'>
-                    This is the short paragraph about me which nobody cares about.aaaaa aaaa aaaaaa aaaaa aaaaaaaaa aaaaaa aaaaa aaaaaaaaa aaaaaa aaaaaaaa aaaaaaaa aaaaaaa aaaaaaaaaaa aaaaaaaa aaaaaaaaaaa aaaaaaa aaaaaaaaaa a aaaaa aaaaa aaaaa aaaaaaa aaaaaaaa aaaaaaaaaaa aaaaaaaaaaaaaa aaa aaaaa aa aaaaaa aaaaaaaa aaaaa aaaa aaaa aaaaa
+                    <span className='title'> Hi I'm Kasey</span>
+                    A mechanical engineer turned developer with a love of all things technical. I recently graduated from Makers Academy bootcamp and am now looking for my first junior web developer role. 
+                    <br></br>
+                    <br></br>
+                    I like to own full projects and therefore want to perform full-stack development. With my past experience I have a diverse range of skills and knowledge including agile development, lean delivery, teamworking and much more. 
+                    
                 </p>
             </div>
         )
