@@ -1,15 +1,21 @@
 import React from 'react';
-import Navbar from './components/Navbar';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+
+// components
+import Navbar from './components/Navbar';
+import ProfilePage from './scenes/ProfilePage.js'
 
 function App() {
   return (
     <div className="App">
       <Router>
         <Navbar />
-        {/* <Switch>
-          <Route path='/' exact />
-        </Switch> */}
+        <Switch>
+          <Route exact path='/'>
+            <ProfilePage/>
+    
+          </Route> 
+        </Switch>
       </Router>
     </div>
   );

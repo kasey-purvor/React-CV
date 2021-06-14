@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.profile-container {
+    position: relative;
+    top: 100px;
+    min-width: 500px;;
+    justify-content: center;
+}
+
+.profile-title {
+    display: block;
+    text-align: center;
+    border-bottom: purple solid;
+    padding-bottom: 10px;;
+    margin: 10px;
+}
+
+.profile-role {
+    display: block;
+    text-align: center;
+}
+
+.profile-details {
+    float: left;
+    display: inline;
+    padding: 50px;
+    display: inline-block;
+}
+
+.detail-item {
+
+}
+
+.bio {
+    padding: 50px;
+
+    display: inline;
+    float: left;
+    position: relative;
+    max-width: 600px;
+}

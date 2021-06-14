@@ -13,12 +13,12 @@ li:hover {
     padding: 0;
     top: 0;
     left: 0;
-    background-color: rgba(63, 62, 109, 0.87);
+    background-color: rgba(63, 62, 109, 1);
+ 
+    z-index: 10;
     position: fixed;
     width: 100%;
     height:80px;
-    
-
 }
 
 .navbar-container {
