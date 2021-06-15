@@ -2,21 +2,15 @@
     margin: 0;
     padding: 0;
 }
-.profile-container {
+.profile-page-container {
     position: relative;
     top: 100px;
-    width: 70%;
+    max-width: 70%;
     left: 15%;
-    min-width: 500px;;
+    min-width: 50%;;
     justify-content: center;
     /* background-color: grey; */
     text-align: center;
-}
-.title {
-    display: block;
-    font-weight: bold;
-    padding: 10px 10px 10px 0px 0;
-    
 }
 .profile-title {
     display: block;
@@ -29,16 +23,39 @@
     display: block;
     text-align: center;
 }
-.profile-details {
-    text-align: center;
+.image-details-container {
+    width: 30%;
+    float: left;
+}
+.dp {
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    /* float: left; */
+    padding-top: 20px;
+}
+.title {
+    display: block;
+    font-weight: bold;
+    padding: 10px 10px 10px 0px 0;
+    
+}
+.details {
+    text-align: left;
     padding: 20px;
-    display: inline-block;
+    display: block;
+    /* float: left; */
+    max-width: 100%;
 }
 .detail-item {
-    display: inline-block;
+    /* display: inline-block; */
 }
 .bio {
-    padding: 50px;
+    padding-top: 30px;
+    padding-left: 20px;
     text-align: center;
     position: relative;
+    width: 65%;
+    margin: auto;
+    float:left;
 }
