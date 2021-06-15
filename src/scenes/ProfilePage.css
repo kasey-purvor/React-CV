@@ -2,17 +2,35 @@
     margin: 0;
     padding: 0;
 }
-.profile-page-container {
+.page-container {
+    background-color: rgb(234, 254, 255);
+    display: block;
+    height: 100%;
+}
+.profile-container {
     position: relative;
     top: 100px;
     max-width: 70%;
     left: 15%;
-    min-width: 50%;;
-    justify-content: center;
-    /* background-color: grey; */
+    min-width: 50%;
+    height: auto;   
+    overflow: hidden;
     text-align: center;
+    background-color: rgb(236, 236, 236);
+    border-bottom:rgba(63, 62, 109, 1) solid ;
 }
-.profile-title {
+.flex-container {
+    display: flex;
+    align-content: center;
+}
+.background-container {
+    position: relative;
+    width: 100%;
+    background-color: grey;
+    display: inline;
+    top: 100px;
+}
+.section-title {
     display: block;
     text-align: center;
     border-bottom: purple solid;
@@ -24,8 +42,17 @@
     text-align: center;
 }
 .image-details-container {
-    width: 30%;
+    flex: 30%;
     float: left;
+}
+.bio {
+    padding-top: 30px;
+    padding-left: 20px;
+    text-align: center;
+    position: relative;
+    flex: 70%;
+    margin: auto;
+
 }
 .dp {
     border-radius: 50%;
@@ -38,24 +65,32 @@
     display: block;
     font-weight: bold;
     padding: 10px 10px 10px 0px 0;
-    
 }
 .details {
-    text-align: left;
+    text-align: center;
     padding: 20px;
     display: block;
     /* float: left; */
     max-width: 100%;
 }
-.detail-item {
-    /* display: inline-block; */
+@media screen and (max-width: 500px) {
+    .image-details-container .bio {
+        flex: 100%;
+    }
 }
-.bio {
-    padding-top: 30px;
-    padding-left: 20px;
-    text-align: center;
+.work-experience-container {
+    margin-top: 20px;
     position: relative;
-    width: 65%;
-    margin: auto;
-    float:left;
+    display: inline-flexbox;
+    top: 100px;
+    max-width: 70%;
+    left: 15%;
+    min-width: 50%;
+    height: auto;   
+    overflow: hidden;
+    justify-content: center;
+    /* background-color: grey; */
+    text-align: center;
+    background-color: rgb(236, 236, 236);
+    border-bottom:rgba(63, 62, 109, 1) solid ;
 }
