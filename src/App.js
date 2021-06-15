@@ -3,7 +3,8 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 // components
 import Navbar from './components/Navbar';
-import ProfilePage from './scenes/ProfilePage.js'
+import ProfilePage from './scenes/ProfilePage.js';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
     
           </Route> 
         </Switch>
+        <Footer/>
       </Router>
     </div>
   );
