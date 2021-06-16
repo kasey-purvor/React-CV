@@ -37,20 +37,44 @@ class ProfilePage extends React.Component {
                             </ul>
                         </div>
                         <p className='bio'>
-                            <span className='title'> Hi I'm Kasey</span>
+                            <span className='title'> Hi I'm Kasey!</span>
                             
-                            A mechanical engineer turned developer with a passion for technology. I recently graduated from Makers Academy bootcamp and am now looking for my first junior web developer role. 
+                            A mechanical engineer of 3 years turned developer, with a passion for technology. I recently graduated from Makers Academy bootcamp and am now looking for my first junior web developer role. 
                             <br></br>
                             <br></br>
-                            I like to own full projects and therefore want to perform full-stack development. With my past experience I have a diverse range of skills and knowledge including agile development, lean delivery, teamworking and much more. 
+                            I like to be involved in all project aspects and therefore want to perform full-stack development. With my past experience I have a diverse range of skills and knowledge including agile development, lean delivery, teamworking and much more. 
+                            <br></br>
+                            <br></br>
+                            My coding experience is predominantly using TDD/BDD to make full stack web apps in Ruby and Javascript. I have exposure to technologies including  Ruby-on-Rails, NodeJS, React, MongoDB, Sinatra, SQL, CSS and REST-APIs.
                         </p>  
                     </div>
                 </div>
                 <div className='work-experience-container'>
-                    
-                    <div className='work-experience-content-container'>
-                        <h1 className='section-title'>Work Experience</h1>
-                        this is only a test
+                    <h1 className='section-title'>Work Experience</h1>
+                    <h2 className='profile-role'>Mechanical Design Engineer</h2>
+                    <div className='width-restrictor'>
+                        <div className='flex-container'>
+                        
+                            <div className='experience-entry'>
+                                <div className='employer-duration'>
+                                    <h3>Servotest Testing Systems LTD</h3>
+                                    <span>March 2020 - January 2021</span>
+                                </div>
+                                <div className='description'>
+                                    This is the description of the work whcih involved doping lots of random stuff for random people This is the description of the work whcih involved doping lots of random stuff for random people This is the description of the work whcih involved doping lots of random stuff for random people This is the description of the work whcih involved doping lots of random stuff for random people This is the description of the work whcih involved doping lots of random stuff for random people This is the description of the work whcih involved doping lots of random stuff for random people This is the description of the work whcih involved doping lots of random stuff for random people EN END END END END 
+                                </div>
+                            </div>
+                            <div className='experience-entry'>
+                                <div className='employer-duration'>
+                                    <h3>Servotest Testing Systems LTD</h3>
+                                    <span>March 2020 - January 2021</span>
+                                </div>
+                                <div className='description'>
+                                    This is the description of the work whcih involved doping lots of random stuff for random people This is the description of the work whcih involved doping lots of random stuff for random people This is the description of the work whcih involved doping lots of random stuff for random people This is the description of the work whcih involved doping lots of random stuff for random people This is the description of the work whcih involved doping lots of random stuff for random people This is the description of the work whcih involved doping lots of random stuff for random people This is the description of the work whcih involved doping lots of random stuff for random people EN END END END END 
+                                </div>
+                            </div>
+                            
+                        </div>
                     </div>
                 </div>
             </div>
