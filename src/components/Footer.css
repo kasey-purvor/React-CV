@@ -1,0 +1,23 @@
+.footer-container {
+    position: absolute;
+    background-color: honeydew;
+    width: 100%;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-around;
+}
+.footer li{
+    display: inline;
+    padding: 0px 50px 0px 50px
+}

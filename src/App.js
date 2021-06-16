@@ -14,10 +14,9 @@ function App() {
         <Switch>
           <Route exact path='/'>
             <ProfilePage/>
-    
           </Route> 
         </Switch>
-        <Footer/>
+        {/* <Footer/> */}
       </Router>
     </div>
   );
