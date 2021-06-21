@@ -14,12 +14,12 @@ function Navbar() {
                             </Link>
                         </li>
                         <li className='nav-item'>
-                            <Link>
+                            <Link to='/'>
                                 My Projects
                             </Link>
                         </li>
                         <li className='nav-item'>
-                            <Link>
+                            <Link to='/'>
                                 Contact
                             </Link>
                         </li>
