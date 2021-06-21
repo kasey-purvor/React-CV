@@ -106,6 +106,11 @@ class ProfilePage extends React.Component {
                         </div>
                     </div>
                 </div>
+                <div className='education-container'>
+                    <h1 className='section-title'>
+                        Education
+                    </h1>
+                </div>
             </div>
 
            

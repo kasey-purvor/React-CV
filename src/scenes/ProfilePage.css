@@ -139,3 +139,9 @@
 .bold {
     font-weight: bolder;
 }
+.education-container {
+    position: relative;
+    display: block;
+    top:400px;
+    margin-bottom: 100px;
+}
